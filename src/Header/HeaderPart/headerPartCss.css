@@ -1,5 +1,5 @@
 
-img{
+header img{
     width: 53%;
     height: 25%;
     margin-top: 5%;
@@ -61,3 +61,66 @@ a:hover{
     text-shadow: 2px 2px #78a58400;
     box-shadow: 2px 2px 2px 1px rgba(4, 59, 13, 0);
 }
+
+.Img-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img-title img{
+    width: 60%;
+    height: 60%;
+}
+
+
+
+@media(max-width:1279px){
+
+    
+img{
+    width: 58%;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+a{
+    
+    font-size: 20px;
+}
+
+ul {
+    width: 63%;
+  }
+
+.logoSena{
+    width: 6rem;
+  height: 6rem;
+}
+
+  }
+  
+  @media screen and (max-width: 580px) {
+    
+    
+.line{
+    display: none;
+}
+
+.Img-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    
+    font-size: 15px;
+}
+
+  }
+  
